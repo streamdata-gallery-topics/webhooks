@@ -13,21 +13,11 @@ tags:
 - Orchestration
 - Microsoft
 - Automation
-created: "2018-02-26"
-modified: "2018-02-26"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/webhooks/master/_listings/azure-automation/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Azure Automation API
-  description: Automate all of those frequent, time-consuming, and error-prone cloud
-    management tasks
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags: Webhooks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/webhooks/master/_listings/azure-automation/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-automation-automationaccounts-automationaccountname-webhooks-get.md
+apis: []
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/automation/
