@@ -3,11 +3,11 @@ swagger: "2.0"
 x-collection-name: Eventbrite
 x-complete: 0
 info:
-  title: Eventbrite Add Webhooks
+  title: Eventbrite Post Webhooks
   description: Creates a webhook for the authenticated user.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:
@@ -49,7 +49,7 @@ paths:
       tags:
       - Webhooks
     post:
-      summary: Add Webhooks
+      summary: Post Webhooks
       description: Creates a webhook for the authenticated user.
       operationId: postWebhooks
       x-api-path-slug: webhooks-post

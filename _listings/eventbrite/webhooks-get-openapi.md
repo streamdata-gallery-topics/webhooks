@@ -7,8 +7,8 @@ info:
   description: Returns the list of webhook objects that belong to the authenticated
     user.
   version: 1.0.0
-host: www.eventbriteapi.com
-basePath: /v3
+host: www.eventbrite.com
+basePath: /%7Bdata-type%7D/
 schemes:
 - http
 produces:

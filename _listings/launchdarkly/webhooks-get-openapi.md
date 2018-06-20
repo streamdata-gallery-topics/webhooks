@@ -1,13 +1,18 @@
 ---
 swagger: "2.0"
-x-collection-name: Eventbrite
+x-collection-name: LaunchDarkly
 x-complete: 0
 info:
-  title: Eventbrite Get Webhooks
-  description: Returns a webhook for the specified webhook as webhook.
-  version: 1.0.0
-host: www.eventbrite.com
-basePath: /%7Bdata-type%7D/
+  title: Launch Darkly Fetch a list of all webhooks
+  description: Fetch a list of all webhooks.
+  termsOfService: https://launchdarkly.com/terms
+  contact:
+    name: LaunchDarkly Support
+    url: https://support.launchdarkly.com
+    email: support@launchdarkly.com
+  version: 2.0.0
+host: app.launchdarkly.com
+basePath: /api/v2
 schemes:
 - http
 produces:
@@ -15,12 +20,12 @@ produces:
 consumes:
 - application/json
 paths:
-  /webhooks/{id}/:
+  /webhooks:
     get:
-      summary: Get Webhooks
-      description: Returns a webhook for the specified webhook as webhook.
+      summary: Fetch a list of all webhooks
+      description: Fetch a list of all webhooks.
       operationId: getWebhooks
-      x-api-path-slug: webhooksid-get
+      x-api-path-slug: webhooks-get
       responses:
         200:
           description: OK
