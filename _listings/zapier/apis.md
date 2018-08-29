@@ -1,21 +1,15 @@
 ---
 name: Zapier
-description: Zapier lets SaaS users create integrations that push data between hundreds
-  of best-in-breed web applications without having to write any code or wrangle APIs.
-image: http://pbs.twimg.com/profile_images/689159044284690432/TRWX8JsA_normal.png
+x-slug: zapier
+description: Connect the apps you use everyday to automate your work and be more productive.
+  1000+ apps and easy integrations - get started in minutes.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/38-zapier.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Webhooks Service
-- Webhooks
-- Stack Network
-- iPaaS
-- Interoperability
-- Automation
-- API LIfeycle
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/webhooks/master/_listings/zapier/apis.yaml
+x-alexaRank: "3788"
+tags: Webhooks
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/zapier/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -23,6 +17,8 @@ x-common:
   url: https://zapier.com/blog/
 - type: x-blog-rss
   url: https://zapier.com/engineering/feeds/latest/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/zapier
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/zapier
 - type: x-github

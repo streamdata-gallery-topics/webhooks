@@ -41,6 +41,23 @@ paths:
       - ""
       - Failed
       - Deliveries
+    get:
+      summary: Webhooks List Failed Deliveries
+      description: Webhooks list failed deliveries.
+      operationId: webhooks
+      x-api-path-slug: adminapiwebhooksfailures-xml-get
+      parameters:
+      - in: query
+        name: provider_key
+        description: Your api key with 3scale (also known as provider key)
+      responses:
+        200:
+          description: OK
+      tags:
+      - Webhooks
+      - List
+      - Failed
+      - Deliveries
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

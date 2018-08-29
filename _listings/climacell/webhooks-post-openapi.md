@@ -4,9 +4,10 @@ x-collection-name: ClimaCell
 x-complete: 0
 info:
   title: ClimaCell Post Webhooks
-  description: "### Create a Webhook\n\nCreates a new Webhook, and name it. The system
-    attaches a unique ID to each webhook you create. This ID is used to refer to the
-    webhook and manage it in the following \u200B```webhooks```\u200B API calls."
+  description: |-
+    ### Create a Webhook
+
+    Creates a new Webhook, and name it. The system attaches a unique ID to each webhook you create. This ID is used to refer to the webhook and manage it in the following ???```webhooks```??? API calls.
   version: 1.0.0
 host: api2.climacell.co
 basePath: /v2
@@ -40,10 +41,10 @@ paths:
       - Webhooks
     post:
       summary: Post Webhooks
-      description: "### Create a Webhook\n\nCreates a new Webhook, and name it. The
-        system attaches a unique ID to each webhook you create. This ID is used to
-        refer to the webhook and manage it in the following \u200B```webhooks```\u200B
-        API calls."
+      description: |-
+        ### Create a Webhook
+
+        Creates a new Webhook, and name it. The system attaches a unique ID to each webhook you create. This ID is used to refer to the webhook and manage it in the following ???```webhooks```??? API calls.
       operationId: -create-a-webhookcreates-a-new-webhook-and-name-it-the-system-attaches-a-unique-id-to-each-webhook-y
       x-api-path-slug: webhooks-post
       parameters:

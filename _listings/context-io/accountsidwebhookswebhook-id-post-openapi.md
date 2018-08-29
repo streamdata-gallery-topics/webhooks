@@ -142,6 +142,25 @@ paths:
       - Accounts
       - Webhooks
       - Webhook
+    delete:
+      summary: Delete Accounts Webhooks Webhook
+      description: Cancels a WebHook.
+      operationId: Delete_cancelAccountWebhook_
+      x-api-path-slug: accountsidwebhookswebhook-id-delete
+      parameters:
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: path
+        name: webhook_id
+        description: Unique id of the webhook instance
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Webhooks
+      - Webhook
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

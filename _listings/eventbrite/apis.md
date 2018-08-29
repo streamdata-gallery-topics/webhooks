@@ -7,72 +7,73 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventb
 x-kinRank: "9"
 x-alexaRank: "643"
 tags: Webhooks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Eventbrite Get Webhooks
-  x-api-slug: eventbrite
+- name: Eventbrite - Get Webhooks
+  x-api-slug: webhooksid-get
   description: Returns a webhook for the specified webhook as webhook.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///webhooks/{id}/
-  tags: Webhooks
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooksid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooksid-get-openapi.md
-- name: Eventbrite Delete Webhooks
-  x-api-slug: eventbrite
+- name: Eventbrite - Delete Webhooks
+  x-api-slug: webhooksid-delete
   description: Deletes the specified webhook object.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///webhooks/{id}/
-  tags: Webhooks
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooksid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooksid-delete-openapi.md
-- name: Eventbrite Get Webhooks
-  x-api-slug: eventbrite
+- name: Eventbrite - Get Webhooks
+  x-api-slug: webhooks-get
   description: Returns the list of webhook objects that belong to the authenticated
     user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///webhooks/
-  tags: Webhooks
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooks-get-openapi.md
-- name: Eventbrite Post Webhooks
-  x-api-slug: eventbrite
+- name: Eventbrite - Post Webhooks
+  x-api-slug: webhooks-post
   description: Creates a webhook for the authenticated user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
   humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D///webhooks/
-  tags: Webhooks
+  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
+  tags: Events, Tickets, Events, My API Stack, API LIfeyclessss, Stack Network, Stack,
+    Marketplace, Technology, Mobile, internet, API Provider, Tickets, Profiles, Registrations,
+    General Data, Relative Data, Pedestal, Historical Data API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooks-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/webhooks-post-openapi.md
-- name: Eventbrite
-  x-api-slug: eventbrite
-  description: Eventbrite brings people together through live experiences. Discover
-    events that match your passions, or create your own with online ticketing tools.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg
-  humanURL: http://eventbriteapi.com
-  baseURL: https://www.eventbrite.com//%7Bdata-type%7D/
-  tags: Webhooks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/eventbrite/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://europeana.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://eventbrite.stack.network
 - type: x-apigee-console
   url: https://api.apigee.com/v1/consoles/eventbrite/apidescription?format=internal&ver=1351170233000
 - type: x-authentication

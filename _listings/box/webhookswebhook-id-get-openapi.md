@@ -71,6 +71,40 @@ paths:
       - Documents
       - Webhooks
       - Webhook
+    put:
+      summary: Update Webhook
+      description: Update a Webhook
+      operationId: updateWebhook
+      x-api-path-slug: webhookswebhook-id-put
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: WEBHOOK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Webhooks
+      - Webhook
+    delete:
+      summary: Delete Webhook
+      description: Permanently deletes a webhook
+      operationId: deleteWebhook
+      x-api-path-slug: webhookswebhook-id-delete
+      parameters:
+      - in: path
+        name: WEBHOOK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Webhooks
+      - Webhook
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

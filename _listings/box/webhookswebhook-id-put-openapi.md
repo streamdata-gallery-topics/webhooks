@@ -90,6 +90,21 @@ paths:
       - Documents
       - Webhooks
       - Webhook
+    delete:
+      summary: Delete Webhook
+      description: Permanently deletes a webhook
+      operationId: deleteWebhook
+      x-api-path-slug: webhookswebhook-id-delete
+      parameters:
+      - in: path
+        name: WEBHOOK_ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Documents
+      - Webhooks
+      - Webhook
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

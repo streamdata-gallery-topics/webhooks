@@ -4,13 +4,14 @@ x-collection-name: SendGrid
 x-complete: 0
 info:
   title: SendGrid Get User Webhooks Event Settings
-  description: "**This endpoint allows you to retrieve your current event webhook
-    settings.**\n\nIf an event type is marked as `true`, then the event webhook will
-    include information about that event.\n\nSendGrid\u2019s Event Webhook will notify
-    a URL of your choice via HTTP POST with information about events that occur as
-    SendGrid processes your email.\n\nCommon uses of this data are to remove unsubscribes,
-    react to spam reports, determine unengaged recipients, identify bounced email
-    addresses, or create advanced analytics of your email program."
+  description: |-
+    **This endpoint allows you to retrieve your current event webhook settings.**
+
+    If an event type is marked as `true`, then the event webhook will include information about that event.
+
+    SendGrid???s Event Webhook will notify a URL of your choice via HTTP POST with information about events that occur as SendGrid processes your email.
+
+    Common uses of this data are to remove unsubscribes, react to spam reports, determine unengaged recipients, identify bounced email addresses, or create advanced analytics of your email program.
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -24,14 +25,14 @@ paths:
   /user/webhooks/event/settings:
     get:
       summary: Get User Webhooks Event Settings
-      description: "**This endpoint allows you to retrieve your current event webhook
-        settings.**\n\nIf an event type is marked as `true`, then the event webhook
-        will include information about that event.\n\nSendGrid\u2019s Event Webhook
-        will notify a URL of your choice via HTTP POST with information about events
-        that occur as SendGrid processes your email.\n\nCommon uses of this data are
-        to remove unsubscribes, react to spam reports, determine unengaged recipients,
-        identify bounced email addresses, or create advanced analytics of your email
-        program."
+      description: |-
+        **This endpoint allows you to retrieve your current event webhook settings.**
+
+        If an event type is marked as `true`, then the event webhook will include information about that event.
+
+        SendGrid???s Event Webhook will notify a URL of your choice via HTTP POST with information about events that occur as SendGrid processes your email.
+
+        Common uses of this data are to remove unsubscribes, react to spam reports, determine unengaged recipients, identify bounced email addresses, or create advanced analytics of your email program.
       operationId: user.webhooks.event.settings.get
       x-api-path-slug: userwebhookseventsettings-get
       parameters:

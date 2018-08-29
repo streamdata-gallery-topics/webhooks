@@ -4,8 +4,10 @@ x-collection-name: ClimaCell
 x-complete: 0
 info:
   title: ClimaCell Put Webhooks Webhook
-  description: "### Update a Webhook\n\nUpdates the name of a Webhook with a\u200B
-    ```webhook_id```."
+  description: |-
+    ### Update a Webhook
+
+    Updates the name of a Webhook with a??? ```webhook_id```.
   version: 1.0.0
 host: api2.climacell.co
 basePath: /v2
@@ -39,10 +41,10 @@ paths:
       - Webhooks
     post:
       summary: Post Webhooks
-      description: "### Create a Webhook\n\nCreates a new Webhook, and name it. The
-        system attaches a unique ID to each webhook you create. This ID is used to
-        refer to the webhook and manage it in the following \u200B```webhooks```\u200B
-        API calls."
+      description: |-
+        ### Create a Webhook
+
+        Creates a new Webhook, and name it. The system attaches a unique ID to each webhook you create. This ID is used to refer to the webhook and manage it in the following ???```webhooks```??? API calls.
       operationId: -create-a-webhookcreates-a-new-webhook-and-name-it-the-system-attaches-a-unique-id-to-each-webhook-y
       x-api-path-slug: webhooks-post
       parameters:
@@ -78,8 +80,10 @@ paths:
       - Webhook
     put:
       summary: Put Webhooks Webhook
-      description: "### Update a Webhook\n\nUpdates the name of a Webhook with a\u200B
-        ```webhook_id```."
+      description: |-
+        ### Update a Webhook
+
+        Updates the name of a Webhook with a??? ```webhook_id```.
       operationId: -update-a-webhookupdates-the-name-of-a-webhook-with-a-webhook-id
       x-api-path-slug: webhookswebhook-id-put
       parameters:
@@ -90,6 +94,25 @@ paths:
       - in: path
         name: webhook_id
         description: UUID of the Group
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Webhooks
+      - Webhook
+    delete:
+      summary: Delete Webhooks Webhook
+      description: |-
+        ### Delete a Webhook
+
+        Removes a Webhook with its information by specifying its ```webhook_id```.
+      operationId: -delete-a-webhookremoves-a-webhook-with-its-information-by-specifying-its-webhook-id
+      x-api-path-slug: webhookswebhook-id-delete
+      parameters:
+      - in: path
+        name: webhook_id
+        description: UUID of the Webhook
       responses:
         200:
           description: OK

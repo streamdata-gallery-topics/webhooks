@@ -17,95 +17,83 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-laun
 x-kinRank: "7"
 x-alexaRank: "187776"
 tags: Webhooks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Launch Darkly Fetch a list of all webhooks
-  x-api-slug: launch-darkly
+- name: Launch Darkly - Fetch a list of all webhooks
+  x-api-slug: webhooks-get
   description: Fetch a list of all webhooks.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
   humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2//webhooks
-  tags: Webhooks
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooks-get-openapi.md
-- name: Launch Darkly Create a webhook
-  x-api-slug: launch-darkly
+- name: Launch Darkly - Create a webhook
+  x-api-slug: webhooks-post
   description: Create a webhook.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
   humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2//webhooks
-  tags: Webhooks
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooks-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooks-post-openapi.md
-- name: Launch Darkly Delete a webhook by ID
-  x-api-slug: launch-darkly
+- name: Launch Darkly - Delete a webhook by ID
+  x-api-slug: webhooksresourceid-delete
   description: Delete a webhook by id.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
   humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2//webhooks/{resourceId}
-  tags: Webhooks,ResourceId
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-delete-openapi.md
-- name: Launch Darkly Get a webhook by ID
-  x-api-slug: launch-darkly
+- name: Launch Darkly - Get a webhook by ID
+  x-api-slug: webhooksresourceid-get
   description: Get a webhook by id.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
   humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2//webhooks/{resourceId}
-  tags: Webhooks,ResourceId
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-get-openapi.md
-- name: Launch Darkly Modify a webhook by ID
-  x-api-slug: launch-darkly
+- name: Launch Darkly - Modify a webhook by ID
+  x-api-slug: webhooksresourceid-patch
   description: Modify a webhook by id.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
   humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2//webhooks/{resourceId}
-  tags: Webhooks,ResourceId
+  baseURL: https://app.launchdarkly.com//api/v2
+  tags: SaaS, Technology, Enterprise, Orchestration, Containers, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-patch-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/webhooksresourceid-patch-openapi.md
-- name: Launch Darkly
-  x-api-slug: launch-darkly
-  description: Our vision is to eliminate risk for developers and operations teams
-    from the software development cycle. As companies transition to a world built
-    on software, there is an increasing requirement to move quickly&mdash;but that
-    often comes with the desire to maintain control. LaunchDarkly is the feature management
-    platform that enables dev and ops teams to control the whole feature lifecycle,
-    from concept to launch to value. Feature flagging is an industry best practice
-    of wrapping a new or risky section of code or infrastructure change with a flag.
-    Each flag can easily be turned on/off independent of code deployment (aka &rdquo;dark
-    launching&rdquo;). Equipping businesses with the ability to move at the speed
-    of every deploy allows an entire company to learn rapidly, deliver value to their
-    customers faster, and produce more value. Developers can build, marketing can
-    launch, product can iterate, and sales can sell.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21652-launchdarkly-com.jpg
-  humanURL: http://www.launchdarkly.com
-  baseURL: https://app.launchdarkly.com//api/v2
-  tags: Webhooks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/launchdarkly/openapi.md
 x-common:
 - type: x-website
   url: http://www.launchdarkly.com
+- type: x-api-gallery
+  url: http://kubernetes.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://launchdarkly.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/launchdarkly
 - type: x-email
@@ -122,6 +110,8 @@ x-common:
   url: http://launchdarkly.com
 - type: x-twitter
   url: https://twitter.com/LaunchDarkly
+- type: x-webhook
+  url: https://apidocs.launchdarkly.com/docs/webhooks-overview
 include: []
 maintainers:
 - FN: Kin Lane

@@ -7,133 +7,143 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Webhooks
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get User Webhooks Event Settings
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve your current event webhook
-    settings.**\n\nIf an event type is marked as `true`, then the event webhook will
-    include information about that event.\n\nSendGrid\u2019s Event Webhook will notify
-    a URL of your choice via HTTP POST with information about events that occur as
-    SendGrid processes your email.\n\nCommon uses of this data are to remove unsubscribes,
-    react to spam reports, determine unengaged recipients, identify bounced email
-    addresses, or create advanced analytics of your email program."
+- name: SendGrid - Get User Webhooks Event Settings
+  x-api-slug: userwebhookseventsettings-get
+  description: |-
+    **This endpoint allows you to retrieve your current event webhook settings.**
+
+    If an event type is marked as `true`, then the event webhook will include information about that event.
+
+    SendGrid???s Event Webhook will notify a URL of your choice via HTTP POST with information about events that occur as SendGrid processes your email.
+
+    Common uses of this data are to remove unsubscribes, react to spam reports, determine unengaged recipients, identify bounced email addresses, or create advanced analytics of your email program.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/event/settings
-  tags: Email,User, Webhooks, Event, Settings
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhookseventsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhookseventsettings-get-openapi.md
-- name: SendGrid Patch User Webhooks Event Settings
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to update your current event webhook settings.**\n\nIf
-    an event type is marked as `true`, then the event webhook will include information
-    about that event.\n\nSendGrid\u2019s Event Webhook will notify a URL of your choice
-    via HTTP POST with information about events that occur as SendGrid processes your
-    email.\n\nCommon uses of this data are to remove unsubscribes, react to spam reports,
-    determine unengaged recipients, identify bounced email addresses, or create advanced
-    analytics of your email program."
+- name: SendGrid - Patch User Webhooks Event Settings
+  x-api-slug: userwebhookseventsettings-patch
+  description: |-
+    **This endpoint allows you to update your current event webhook settings.**
+
+    If an event type is marked as `true`, then the event webhook will include information about that event.
+
+    SendGrid???s Event Webhook will notify a URL of your choice via HTTP POST with information about events that occur as SendGrid processes your email.
+
+    Common uses of this data are to remove unsubscribes, react to spam reports, determine unengaged recipients, identify bounced email addresses, or create advanced analytics of your email program.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/event/settings
-  tags: Email,User, Webhooks, Event, Settings
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhookseventsettings-patch-openapi.md
-- name: SendGrid Add User Webhooks Event Test
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to test your event webhook by sending a
-    fake event notification post to the provided URL.**\n\nSendGrid\u2019s Event Webhook
-    will notify a URL of your choice via HTTP POST with information about events that
-    occur as SendGrid processes your email.\n\nCommon uses of this data are to remove
-    unsubscribes, react to spam reports, determine unengaged recipients, identify
-    bounced email addresses, or create advanced analytics of your email program."
+- name: SendGrid - Add User Webhooks Event Test
+  x-api-slug: userwebhookseventtest-post
+  description: |-
+    **This endpoint allows you to test your event webhook by sending a fake event notification post to the provided URL.**
+
+    SendGrid???s Event Webhook will notify a URL of your choice via HTTP POST with information about events that occur as SendGrid processes your email.
+
+    Common uses of this data are to remove unsubscribes, react to spam reports, determine unengaged recipients, identify bounced email addresses, or create advanced analytics of your email program.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/event/test
-  tags: Email,User, Webhooks, Event, Test
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhookseventtest-post-openapi.md
-- name: SendGrid Get User Webhooks Parse Settings
-  x-api-slug: sendgrid
+- name: SendGrid - Get User Webhooks Parse Settings
+  x-api-slug: userwebhooksparsesettings-get
   description: |-
     **This endpoint allows you to retrieve all of your current inbound parse settings.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings
-  tags: Email,User, Webhooks, Parse, Settings
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettings-get-openapi.md
-- name: SendGrid Add User Webhooks Parse Settings
-  x-api-slug: sendgrid
+- name: SendGrid - Add User Webhooks Parse Settings
+  x-api-slug: userwebhooksparsesettings-post
   description: |-
     **This endpoint allows you to create a new inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the content, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings
-  tags: Email,User, Webhooks, Parse, Settings
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettings-post-openapi.md
-- name: SendGrid Delete User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
+- name: SendGrid - Delete User Webhooks Parse Settings Hostname
+  x-api-slug: userwebhooksparsesettingshostname-delete
   description: |-
     **This endpoint allows you to delete a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettingshostname-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettingshostname-delete-openapi.md
-- name: SendGrid Get User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
+- name: SendGrid - Get User Webhooks Parse Settings Hostname
+  x-api-slug: userwebhooksparsesettingshostname-get
   description: |-
     **This endpoint allows you to retrieve a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-openapi.md
-- name: SendGrid Patch User Webhooks Parse Settings Hostname
-  x-api-slug: sendgrid
+- name: SendGrid - Patch User Webhooks Parse Settings Hostname
+  x-api-slug: userwebhooksparsesettingshostname-patch
   description: |-
     **This endpoint allows you to update a specific inbound parse setting.**
 
     The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/settings/{hostname}
-  tags: Email,User, Webhooks, Parse, Settings, Hostname
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsesettingshostname-patch-openapi.md
-- name: SendGrid Get User Webhooks Parse Stats
-  x-api-slug: sendgrid
+- name: SendGrid - Get User Webhooks Parse Stats
+  x-api-slug: userwebhooksparsestats-get
   description: |-
     **This endpoint allows you to retrieve the statistics for your Parse Webhook useage.**
 
@@ -142,29 +152,21 @@ apis:
     There are a number of pre-made integrations for the SendGrid Parse Webhook which make processing events easy. You can find these integrations in the [Library Index](https://sendgrid.com/docs/Integrate/libraries.html#-Webhook-Libraries).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//user/webhooks/parse/stats
-  tags: Email,User, Webhooks, Parse, Stats
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsestats-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/userwebhooksparsestats-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Webhooks
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhooks/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog
